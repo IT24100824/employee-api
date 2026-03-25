@@ -26,6 +26,12 @@ public class EmployeeController {
         System.out.println("hi");
     }
 
+    @PostMapping("/test")
+    public void createNew() {
+
+        System.out.println("hi");
+    }
+
     @GetMapping("/employees")
     public List<Response> findAll() {
 
